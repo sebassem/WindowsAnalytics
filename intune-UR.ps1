@@ -19,7 +19,7 @@ the script creates a scheduled task that runs once every 30 days
 ################Edit Variables##########################
 $downloadpath = "c:\UA-upgradeReadiness"
 $logfile = "$downloadpath\log.txt"
-$logPath = "\\cm1\wadiagnostics"
+$logPath = "\\server\wadiagnostics"
 $commercialID ="xxxxxxxxxxxxxxxxxxxxxxxx"
 $AllowIEData = "false"
 $IEOptInLevel = "3"
