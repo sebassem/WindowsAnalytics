@@ -12,7 +12,7 @@ upload to intune.
      ################Edit Variables##########################
      $downloadpath = "c:\UA-upgradeReadiness" 
      $logfile = "$downloadpath\log.txt"
-     $logPath = "\\cm1\wadiagnostics"
+     $logPath = "\\server\wadiagnostics"
      $commercialID ="xxxxxxxxxxxxxxxxxxxxxxxx"
      $AllowIEData = "false"
      $IEOptInLevel = "3"
