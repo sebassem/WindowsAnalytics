@@ -34,3 +34,5 @@ upload to intune.
 | ClientProxy | This is used to specofy the proxy setup that you have in your environment |
 
 **You can find detailed information about the upgrade readiness script and it's variables in this [link](https://docs.microsoft.com/en-us/windows/deployment/upgrade/upgrade-readiness-deployment-script#running-the-script)**
+
+3. Save the script and deploy using Intune.
