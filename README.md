@@ -1,8 +1,7 @@
 # Deploying the Upgrade Readiness script from Intune
 The script allows to deploy the upgrade readiness script to your azure active directory joined machines using intune.
 
-The script allows to run the upgrade readiness script to the intune managed devices , you have to edit the parameters needed for the upgrade readiness script directly here and then
-upload to intune.
+The script will automatically download the latest version of the upgrade readiness script to your intune managed devices, inject the variables to the RunConfig.bat file and create a scheduled task to run it once every 30 days.
 
 ## Usage:
 
